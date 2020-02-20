@@ -59,7 +59,7 @@
         android:background="@color/colorAccent"
         android:gravity="top|center"
         android:padding="15dp"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
 <TextView
     android:layout_width="match_parent"
@@ -69,66 +69,60 @@
     android:textColor="@color/colorPrimary"
     android:gravity="center"
     android:layout_marginTop="18dp"
-    android:textSize="20dp"/>
+    android:textSize="30dp"
+    />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="First Name"
+        android:background="@drawable/layouts123"
         android:layout_marginLeft="18dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Middle Name"
-        android:layout_marginLeft="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginTop="58dp"/>
 
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Last Name"
         android:layout_marginLeft="18dp"
         android:layout_marginRight="18dp"
+        android:background="@drawable/layouts123"
         android:layout_marginTop="58dp"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Email Address"
         android:layout_marginLeft="18dp"
         android:layout_marginRight="18dp"
+        android:background="@drawable/layouts123"
         android:layout_marginTop="58dp"/>
+
+
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Confirm Email Address"
-        android:layout_marginLeft="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginTop="58dp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Password"
+        android:background="@drawable/layouts123"
         android:layout_marginLeft="18dp"
         android:layout_marginRight="18dp"
         android:layout_marginTop="48dp"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Confirm Password"
         android:layout_marginLeft="18dp"
+        android:background="@drawable/layouts123"
         android:layout_marginRight="18dp"
         android:layout_marginTop="58dp"/>
 
@@ -137,10 +131,11 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="18dp"
         android:layout_marginLeft="18dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="40dp"
         android:text="Sign Up"
         android:textColor="@color/White"
-        android:background="@color/Blue"/>
+        android:background="@drawable/layouts123"
+        android:backgroundTint="@color/Blue"/>
 
     >
 </LinearLayout>
