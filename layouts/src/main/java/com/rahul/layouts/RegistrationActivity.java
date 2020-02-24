@@ -36,6 +36,16 @@ public class RegistrationActivity extends AppCompatActivity {
             }
         });
 
+        btnlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(RegistrationActivity.this,Dashboard.class);
+                intent.setFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         ma_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
