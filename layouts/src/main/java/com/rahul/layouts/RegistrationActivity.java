@@ -13,6 +13,7 @@ public class RegistrationActivity extends AppCompatActivity {
         EditText edtusername, edtpassword;
         TextView signup;
         Button btnlogin;
+        Button ma_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +23,23 @@ public class RegistrationActivity extends AppCompatActivity {
         edtpassword=findViewById(R.id.edtpassword);
         signup=findViewById(R.id.btnsignup);
         btnlogin=findViewById(R.id.btnlogin);
+        ma_btn=findViewById(R.id.ma_btn);
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Bundle bundle=new Bundle();
+                bundle.putString("callFrom","login");
                 Intent intent=new Intent(RegistrationActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ma_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(RegistrationActivity.this,Activity3.class);
                 startActivity(intent);
             }
         });
