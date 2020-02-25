@@ -117,13 +117,14 @@
         android:id="@+id/ma_btn"
         android:layout_width="126dp"
         android:layout_height="52dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/layouts123"
         android:backgroundTint="@color/Blue"
         android:text="Main Activity"
         android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnsignup"
-        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsignup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

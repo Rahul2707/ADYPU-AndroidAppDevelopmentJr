@@ -1,2 +1,2 @@
-include ':app', ':layouts'
+include ':app', ':layouts', ':recycler'
 rootProject.name='App-1'
