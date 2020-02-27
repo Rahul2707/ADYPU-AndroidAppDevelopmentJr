@@ -1,6 +1,7 @@
 package com.rahul.recycler;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +36,8 @@ public class SocialAdaptor extends RecyclerView.Adapter<SocialAdaptor.SocialHold
 
         holder.getName().setText(list.get(position).getName());
         holder.getImage().setImageResource(list.get(position).getImage());
+
+
     }
 
     @Override
