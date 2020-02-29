@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<EmployeeResponse> call, Throwable t) {
-                Log.i("@maim","error===============> Sorry you are doomed");
+                Log.i("@maim","error===============> Sorry app is of Rangila type");
 
             }
         });
